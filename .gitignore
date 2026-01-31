@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations (optional)
+# Uncomment if you don't want migrations in git
+# */migrations/__pycache__/
+
+# Node (if frontend used later)
+node_modules/
+
+# Groq / API secrets
+groq_key.txt
+secrets.json
+
+# Tests / cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg-info/
